@@ -1,0 +1,11 @@
+{
+  "logger": {
+    "format": "json",
+    "level": "info",
+    "output": "stdout"
+  },
+  "tracing": {
+    "destination": "http://localhost:9411/api/v2/spans",
+    "log_trace_ids": true
+  }
+}

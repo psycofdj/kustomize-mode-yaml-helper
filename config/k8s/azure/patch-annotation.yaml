@@ -1,0 +1,4 @@
+- op: add
+  path: "/spec/template/metadata/annotations"
+  value:
+    container.apparmor.security.beta.kubernetes.io/apiservice: runtime/default
